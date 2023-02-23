@@ -1,8 +1,11 @@
 #usingGit.py
 
-print("Set your working path to the root project folder\n\tcd projectRootPath")
-print('Initialize the repo\n\tgit init')
-print("Make a file change")
-print("Add files for tracking\n\tgit add fileName")
-print('Create a new commit\n\tgit commit')
-
+print("1. Set your working path to the root project folder")
+print("\tcd projectRootPath")
+print("2. Initialize the repo")
+print("\tgit init")
+print("3. Make a file change")
+print("4. Add files for tracking")
+print("\tgit add fileName")
+print('5. Create a new commit')
+print('\tgit commit')
