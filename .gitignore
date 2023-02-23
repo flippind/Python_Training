@@ -1,4 +1,14 @@
 .mp4
+!venv/
+venv/*
+
+!venv/instructor/
+venv/instructor/*
+!venv/instructor/requirements.txt
+
+!venv/project_prod/
+venv/project_prod/*
+!venv/project_prod/requirements.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -120,12 +130,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# venv
-!venv/
-venv/*
-
-!venv/instructor/
-venv/instructor/*
-!venv/instructor/requirements.txt
-
